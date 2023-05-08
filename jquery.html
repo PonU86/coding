@@ -11,69 +11,73 @@
 </head>
 
 <body onload="confetti()">
-    <div class="emitter"></div>
-    <section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <section class="total-background">
+        <div class="emitter"></div>
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="nabarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="html.html">HTML</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="css.html">CSS</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="javascript.html">Javascript</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="jquery.html">JQuery</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="bootstrap.html">Bootstrap</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </section>
+                <div class="collapse navbar-collapse" id="nabarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="html.html">HTML</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="css.html">CSS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="javascript.html">Javascript</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="jquery.html">JQuery</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="bootstrap.html">Bootstrap</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
 
-    <section class="full-width-js">
-        <div class="container">
-            <div class="row top-border">
-                <h1 id="title"></h1>
-                <p id="welcomeText"></p>
+        <section class="full-width-js">
+            <div class="container">
+                <div class="row top-border">
+                    <h1 id="title"></h1>
+                    <p id="welcomeText"></p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="full-width-js">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 popup" onclick="youWinYes()">
-                    <button id="button">Click Here!</button>
-                    <div class="popuptext" id="youWin">
-                        You Win!!!!!!
+        <section class="full-width-js">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 popup" onclick="youWinYes()">
+                        <button id="button">Click Here!</button>
+                        <div class="popuptext" id="youWin">
+                            You Win!!!!!!
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="full-width-js timer">
-        <div class="container">
-            <div class="row">
-                <time id="time">12:30:35 PM</time>
-                <h2>
-                    <span id="welcome"></span>
-                    <span id="name" contenteditable="true"></span>
-                </h2>
-                <h3>What Is Inspiring You Today?</h3>
-                <h3 id="inspire" contenteditable="true"></h3>
+        <section class="full-width-js timer">
+            <div class="container">
+                <div class="row">
+                    <time id="time">12:30:35 PM</time>
+                    <h2>
+                        <span id="welcome"></span>
+                        <span id="name" contenteditable="true"></span>
+                    </h2>
+                    <h3>What Is Inspiring You Today?</h3>
+                    <h3 id="inspire" contenteditable="true"></h3>
+                </div>
             </div>
-        </div>
+        </section>
+
     </section>
 
     <section class="footer">

@@ -1,0 +1,18 @@
+.what-css {
+    list-style-type: circle;
+    li {
+        margin-left: 1rem;
+        font-size: 17px;
+    }
+}
+
+.images-lined {
+    list-style-type: none;
+    li {
+        display: contents;
+        padding: 20px;
+        img {
+            padding-left: 20px;
+        }
+    }
+}

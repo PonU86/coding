@@ -1,7 +1,3 @@
-// SEtBackground image
-function setBackground() {
-    document.body.style.backgroundImage = url("images/binoculars.jpg");
-}
-
-
-setBackground();
+document.body.style.backgroundColor = "lightblue";
+document.getElementById('footer').style.backgroundColor = "lightgrey";
+document.getElementById('footer').style.paddingBottom = "50px";

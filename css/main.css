@@ -4,13 +4,12 @@
 ul.main-info {
   list-style-type: none; }
 
-.total-background {
-  background-color: lightblue; }
-
 .footer {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #e8e8e8; }
+  left: 0;
+  bottom: 0;
+  width: 100%; }
 
 .footer-ul {
   list-style-type: none; }
@@ -18,26 +17,29 @@ ul.main-info {
 @media (min-width: 300px) {
   .infoMe {
     padding-left: 70px; }
-
   .headShot {
     text-align: center; } }
+
 @media (min-width: 540px) {
   .infoMe {
     padding-left: 170px; } }
+
 @media (min-width: 700px) {
   .infoMe {
     text-align: right;
     padding-top: 1%;
     padding-left: 0px; }
-
   .headShot {
     text-align: left; } }
+
 @media (min-width: 900px) {
   .infoMe {
     padding-top: 4%; } }
+
 @media (min-width: 1140px) {
   .infoMe {
     padding-top: 5%; } }
+
 .full-width-css,
 .full-width-js {
   padding-top: 40px;
@@ -90,5 +92,3 @@ a {
 
 .links {
   text-align: end; }
-
-/*# sourceMappingURL=main.css.map */

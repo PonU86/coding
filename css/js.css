@@ -37,11 +37,13 @@
     opacity: 0; }
   to {
     opacity: 1; } }
+
 @keyframes fadeIn {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
+
 /*Time*/
 .timer {
   display: flex;
@@ -50,7 +52,8 @@
   justify-content: center;
   text-align: center;
   height: auto;
-  color: #000; }
+  color: #000;
+  margin-bottom: 30px; }
 
 #time {
   font-size: 8rem; }
@@ -65,5 +68,3 @@ h3 {
 @media (max-width: 700px) {
   #time {
     font-size: 6rem; } }
-
-/*# sourceMappingURL=js.css.map */
